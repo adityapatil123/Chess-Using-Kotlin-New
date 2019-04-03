@@ -46,6 +46,7 @@ BS:Black King('S' due to naming issues)
 Same for White coins
 
 Basic Arrangement will be like
+
 BR1 BK1 BB1 BQ1 BS1 BB2 BK2 BR2  
 BP1 BP2 BP3 BP4 BP5 BP6 BP7 BP8  
                                  
