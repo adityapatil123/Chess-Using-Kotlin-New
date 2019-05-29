@@ -58,6 +58,8 @@ Ask again for instruction.
 |    7    |  WP1  |  WP2  |  WP3  |  WP4  |  WP5  |  WP6  |  WP7  |  WP8  |
 |    8    |  WR1  |  WK1  |  WB1  |  WQ1  |  WS1  |  WB2  |  WK2  |  WR2  |
 
-User will be asked for input like:"CoinID-PlaceID"   e.g. "BP1-A3"    One-by-One for Black and White
-Xaxis:A->H
-Yaxix:1 downTo 8
+- User will be asked for input like:"CoinID-PlaceID"    
+- e.g. "BP1-A3"     
+- One-by-One for Black and White
+- Xaxis:A->H
+- Yaxix:1 downTo 8
