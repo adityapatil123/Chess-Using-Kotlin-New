@@ -1,6 +1,6 @@
-Chess Program
+# Chess Program
 
-Aim:
+**Aim:**
 Print basic arrangement of chess
 2 players(2 colors-black and white) will play one by one.First will be played by white.
 Follow all the rules of chess.
