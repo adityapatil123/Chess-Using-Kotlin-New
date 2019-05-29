@@ -10,7 +10,7 @@ User need to provide Coin and Desired place it has to move.If possible move,do i
 Ask again for instruction.
 When ‘Check’ condition is there.Give the message.
 
-Approach:
+**Approach:**
 Coin Class(color,id) → Pawn Class(color,id) , Rook Class(color,id) , ….
 For color,id and coin_type enum classes to be made and to be validated
 ChessPlace Class(x,y)
@@ -18,7 +18,7 @@ X and y to be validated(1 to 8)
 Mapping ChessPlace → Coin
 Using nested For loops on x and y, print coinID associated and Hence the desired table.
 
-Algorithm:
+**Algorithm:**
 Ask user for input in form “coinID-place” one-by-one Black and White
 Make move according to conditions of associated cointype.Otherwise ask again for input.
 While moving(or killing),first it will check if anything is there at Desired Location,
@@ -27,7 +27,7 @@ While moving(or killing),check if anything is present between source and destina
 Look for ‘Check’ other king is getting,If yes alert about it.
 Repeat asking till any king get killed
 
-Kotlin Files:
+**Kotlin Files:**
 1)ChessMain Fun:Basically calls UserInstr fun
 2)UserInstr:Takes user input and make ask for the move and check fun
 3)Coin:Enum classes for color,coinType, getValidCoin fun    (Coin is the value)
@@ -36,7 +36,7 @@ Kotlin Files:
 6)CoinOperations(Interface) with methods as move(with actual moving code) and check
 7)Pawn(Class) with methods move(checking for Pawn moving conditions), same for Knight,Rook,Bishop,Queen,King.
 
-How it Works:
+**How it Works:**
 BP:Black Pawn
 BK:Black Knight
 BR:Black Rook
